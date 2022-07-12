@@ -1,0 +1,12 @@
+.container {
+  width: 1230px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 1270px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: calc(100% - 40px);
+  }
+}
